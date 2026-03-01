@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f4f6f9;
+    text-align: center;
+}
+
+header {
+    background-color: #1e3a8a;
+    color: white;
+    padding: 20px;
+}
+
+main {
+    margin-top: 40px;
+}
+
+.selectors {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    width: 180px;
+}
+
+button {
+    padding: 10px 25px;
+    font-size: 16px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+#result {
+    margin-top: 30px;
+    padding: 20px;
+}
+
+.comparison {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 20px;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}

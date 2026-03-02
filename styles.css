@@ -59,5 +59,92 @@ button:hover {
     padding: 20px;
     width: 250px;
     border-radius: 10px;
+    box-shadow: 0<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>مقارنة بين دولتين</title>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    background-color: #f4f6f9;
+    padding: 20px;
+}
+
+.comparison {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: #ffffff;
+    width: 300px;
+    border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card h2 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+.card ul {
+    list-style: none;
+    padding: 0;
+}
+
+.card ul li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
+
+.highlight {
+    background-color: #e8f5e9;
+    font-weight: bold;
+    color: #2e7d32;
+}
+</style>
+</head>
+<body>
+
+<h1 style="text-align:center;">مقارنة بين دولتين</h1>
+
+<div class="comparison">
+    
+    <div class="card">
+        <h2>مصر</h2>
+        <ul>
+            <li>عدد السكان: 110 مليون</li>
+            <li>العاصمة: القاهرة</li>
+            <li>العملة: جنيه مصري</li>
+            <li class="highlight">اللغة الرسمية: العربية</li>
+            <li>المساحة: 1,002,000 كم²</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>السعودية</h2>
+        <ul>
+            <li>عدد السكان: 36 مليون</li>
+            <li>العاصمة: الرياض</li>
+            <li>العملة: ريال سعودي</li>
+            <li class="highlight">اللغة الرسمية: العربية</li>
+            <li>المساحة: 2,150,000 كم²</li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html> 4px 10px rgba(0,0,0,0.1);
+    
+
 }
